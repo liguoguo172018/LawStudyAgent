@@ -1,0 +1,47 @@
+# 操作系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# 本地工作区与个人学习数据（绝不提交）
+law-study-workspace/
+*.local.md
+*.local.json
+
+# 备份与恢复目录
+.backup/
+.acl-recovery/
+
+# 凭证与环境变量
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# 运行时与依赖（本版本无脚本，保留以备后续）
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# 个人资料与导出件（按需保留规则，避免误传）
+# 如确有权公开某份 PDF/文档，请先确认授权，再用 git add -f 显式加入。
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
+*.zip
+*.7z
+*.rar
+
+# 编辑器与工具日志
+*.log
+.cache/
